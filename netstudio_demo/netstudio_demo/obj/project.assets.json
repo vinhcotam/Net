@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FX505DD\\source\\repos\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
+      "projectUniqueName": "C:\\Users\\FX505DD\\OneDrive\\Documents\\GitHub\\Net\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
       "projectName": "netstudio_demo",
-      "projectPath": "C:\\Users\\FX505DD\\source\\repos\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
+      "projectPath": "C:\\Users\\FX505DD\\OneDrive\\Documents\\GitHub\\Net\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
       "packagesPath": "C:\\Users\\FX505DD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FX505DD\\source\\repos\\netstudio_demo\\netstudio_demo\\obj\\",
+      "outputPath": "C:\\Users\\FX505DD\\OneDrive\\Documents\\GitHub\\Net\\netstudio_demo\\netstudio_demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FX505DD\\AppData\\Roaming\\NuGet\\NuGet.Config",
