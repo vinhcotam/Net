@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Duong\\.nuget\\packages\\": {}
+    "C:\\Users\\FX505DD\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duong\\Documents\\GitHub\\CNWeb-trangbandoan_bootstrap\\Net\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
+      "projectUniqueName": "C:\\Users\\FX505DD\\OneDrive\\Documents\\GitHub\\Net\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
       "projectName": "netstudio_demo",
-      "projectPath": "C:\\Users\\Duong\\Documents\\GitHub\\CNWeb-trangbandoan_bootstrap\\Net\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
-      "packagesPath": "C:\\Users\\Duong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Duong\\Documents\\GitHub\\CNWeb-trangbandoan_bootstrap\\Net\\netstudio_demo\\netstudio_demo\\obj\\",
+      "projectPath": "C:\\Users\\FX505DD\\OneDrive\\Documents\\GitHub\\Net\\netstudio_demo\\netstudio_demo\\netstudio_demo.csproj",
+      "packagesPath": "C:\\Users\\FX505DD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FX505DD\\OneDrive\\Documents\\GitHub\\Net\\netstudio_demo\\netstudio_demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FX505DD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
       }
     }
   }
