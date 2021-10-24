@@ -1,0 +1,2 @@
+c:\users\duong\documents\visual studio 2013\Projects\netstudio_demo\netstudio_demo\bin\Debug\netstudio_demo.exe.config
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\bin\Debug\netstudio_demo.exe.config
