@@ -36,7 +36,9 @@ namespace netstudio_demo
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btdn = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -74,6 +76,7 @@ namespace netstudio_demo
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.numericUpDown1);
             this.groupBox1.Controls.Add(this.btdn);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.tbtkdn);
@@ -107,6 +110,18 @@ namespace netstudio_demo
             this.checkBox1.Text = "hiện mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(25, 131);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown1.TabIndex = 6;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -118,6 +133,7 @@ namespace netstudio_demo
             this.Load += new System.EventHandler(this.Login_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,5 +148,6 @@ namespace netstudio_demo
         private System.Windows.Forms.Button log;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button btdn;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }

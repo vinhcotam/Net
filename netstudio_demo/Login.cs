@@ -32,15 +32,19 @@ namespace netstudio_demo
                 conn.Open();
                 string tk = tbtkdn.Text;
                 string mk = tbmkdn.Text;
+               // int level = int.Parse(numericUpDown1.Value);
                 string sql = "select * from taikhoan where TenTK='"+tk+"'and matkhau='"+mk+"'";
                 SqlCommand cmd = new SqlCommand(sql,conn);
                 SqlDataReader dt= cmd.ExecuteReader();
                 if (dt.Read() == true)
                 {
-                    string sql1="select level_tk from taikhoan where TenTK='"+tk+"'and matkhau='"+mk+"'";
-                    SqlCommand cmd1 = new SqlCommand(sql1, conn);
-                    if
-                    //MessageBox.Show("dang nhap thanh cong");
+                    /*string sql1="select level_tk from taikhoan where TenTK='"+tk+"'and matkhau='"+mk+"'";
+                    SqlCommand cmd1 = new SqlCommand(sql1, conn);*/
+                    
+                    MessageBox.Show("dang nhap thanh cong");
+                    Admin admin = new Admin();
+                    this.Hide();
+                    admin.Show();
                 }
                 else
                 {
