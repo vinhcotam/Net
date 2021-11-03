@@ -28,18 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.L_account = new System.Windows.Forms.Label();
             this.BTN_Changepass = new System.Windows.Forms.Button();
             this.L_Money = new System.Windows.Forms.Label();
             this.RTB_Chat = new System.Windows.Forms.RichTextBox();
             this.BTN_Send = new System.Windows.Forms.Button();
             this.BTN_service = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.L_time = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // L_account
             // 
             this.L_account.AutoSize = true;
-            this.L_account.Location = new System.Drawing.Point(12, 20);
+            this.L_account.Location = new System.Drawing.Point(9, 9);
             this.L_account.Name = "L_account";
             this.L_account.Size = new System.Drawing.Size(58, 13);
             this.L_account.TabIndex = 0;
@@ -47,9 +51,9 @@
             // 
             // BTN_Changepass
             // 
-            this.BTN_Changepass.Location = new System.Drawing.Point(12, 259);
+            this.BTN_Changepass.Location = new System.Drawing.Point(122, 259);
             this.BTN_Changepass.Name = "BTN_Changepass";
-            this.BTN_Changepass.Size = new System.Drawing.Size(111, 34);
+            this.BTN_Changepass.Size = new System.Drawing.Size(98, 34);
             this.BTN_Changepass.TabIndex = 1;
             this.BTN_Changepass.Text = " Đổi mật khẩu";
             this.BTN_Changepass.UseVisualStyleBackColor = true;
@@ -57,7 +61,7 @@
             // L_Money
             // 
             this.L_Money.AutoSize = true;
-            this.L_Money.Location = new System.Drawing.Point(16, 62);
+            this.L_Money.Location = new System.Drawing.Point(13, 41);
             this.L_Money.Name = "L_Money";
             this.L_Money.Size = new System.Drawing.Size(29, 13);
             this.L_Money.TabIndex = 2;
@@ -73,7 +77,7 @@
             // 
             // BTN_Send
             // 
-            this.BTN_Send.Location = new System.Drawing.Point(207, 259);
+            this.BTN_Send.Location = new System.Drawing.Point(226, 259);
             this.BTN_Send.Name = "BTN_Send";
             this.BTN_Send.Size = new System.Drawing.Size(109, 34);
             this.BTN_Send.TabIndex = 4;
@@ -89,11 +93,35 @@
             this.BTN_service.Text = "Dịch vụ";
             this.BTN_service.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 259);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 34);
+            this.button1.TabIndex = 6;
+            this.button1.Text = " Đăng xuất";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // L_time
+            // 
+            this.L_time.AutoSize = true;
+            this.L_time.Location = new System.Drawing.Point(13, 62);
+            this.L_time.Name = "L_time";
+            this.L_time.Size = new System.Drawing.Size(51, 13);
+            this.L_time.TabIndex = 7;
+            this.L_time.Text = "Thời gian";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 321);
+            this.Controls.Add(this.L_time);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BTN_service);
             this.Controls.Add(this.BTN_Send);
             this.Controls.Add(this.RTB_Chat);
@@ -116,5 +144,8 @@
         private System.Windows.Forms.RichTextBox RTB_Chat;
         private System.Windows.Forms.Button BTN_Send;
         private System.Windows.Forms.Button BTN_service;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label L_time;
+        private System.Windows.Forms.Timer timer1;
     }
 }

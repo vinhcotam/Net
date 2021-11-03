@@ -27,7 +27,9 @@ namespace netstudio_demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn =new SqlConnection(@"Data Source=LAPTOP-Q5ASBT2Q\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True");
+            string connstr = "Data Source=THINKPADT430\\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True";
+            //string sqlstr = "Data Source=LAPTOP-Q5ASBT2Q\\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(@connstr);
             try {
                 conn.Open();
                 string tk = tbtkdn.Text;
@@ -38,20 +40,36 @@ namespace netstudio_demo
                 SqlDataReader dt= cmd.ExecuteReader();
                 if (dt.Read() == true)
                 {
+                    int level = (int)dt["level_tk"];
+                    Form f = null;
+                    if (level == 0)
+                    {
+                        MessageBox.Show("dang nhap thanh cong");
+                        conn.Close();
+                        f = new Admin(connstr, tk);
+                    } else if (level == 1)
+                    {
+                        MessageBox.Show("dang nhap thanh cong");
+                        conn.Close();
+                        f = new Nhanvien(connstr, tk);
+                    } else if (level == 2)
+                    {
+                        MessageBox.Show("dang nhap thanh cong");
+                        conn.Close();
+                        f = new User(connstr, tk);
+                    }
+                    f.Show();
+
                     /*string sql1="select level_tk from taikhoan where TenTK='"+tk+"'and matkhau='"+mk+"'";
                     SqlCommand cmd1 = new SqlCommand(sql1, conn);*/
                     
-                    MessageBox.Show("dang nhap thanh cong");
-                    Admin admin = new Admin();
-                    this.Hide();
-                    admin.Show();
                 }
                 else
                 {
                     MessageBox.Show("dang nhap that bai");
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Lỗi kết nối");
             }

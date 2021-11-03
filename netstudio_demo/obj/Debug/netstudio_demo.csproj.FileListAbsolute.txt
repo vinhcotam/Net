@@ -10,3 +10,14 @@ C:\Users\FX505DD\OneDrive\Documents\GitHub\Net\netstudio_demo\bin\Debug\netstudi
 C:\Users\FX505DD\OneDrive\Documents\GitHub\Net\netstudio_demo\bin\Debug\netstudio_demo.pdb
 C:\Users\FX505DD\OneDrive\Documents\GitHub\Net\netstudio_demo\obj\Debug\netstudio_demo.exe
 C:\Users\FX505DD\OneDrive\Documents\GitHub\Net\netstudio_demo\obj\Debug\netstudio_demo.pdb
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.exe
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.pdb
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\bin\Debug\netstudio_demo.exe
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\bin\Debug\netstudio_demo.pdb
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.csprojResolveAssemblyReference.cache
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.Login.resources
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.Nhanvien.resources
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.Properties.Resources.resources
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.Service.resources
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.User.resources
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.csproj.GenerateResource.Cache

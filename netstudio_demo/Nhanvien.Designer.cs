@@ -1,7 +1,7 @@
 ﻿
 namespace netstudio_demo
 {
-    partial class Form1
+    partial class Nhanvien
     {
         /// <summary>
         ///  Required designer variable.

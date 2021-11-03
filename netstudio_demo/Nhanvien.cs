@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace netstudio_demo
 {
-    public partial class Form1 : Form
+    public partial class Nhanvien : Form
     {
-        public Form1()
+        public Nhanvien(string connstr, string Acc)
         {
             InitializeComponent();
         }
