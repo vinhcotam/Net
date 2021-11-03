@@ -37,7 +37,9 @@ namespace netstudio_demo
                 SqlDataReader dt= cmd.ExecuteReader();
                 if (dt.Read() == true)
                 {
-                    
+                    string sql1="select level_tk from taikhoan where TenTK='"+tk+"'and matkhau='"+mk+"'";
+                    SqlCommand cmd1 = new SqlCommand(sql1, conn);
+                    if
                     //MessageBox.Show("dang nhap thanh cong");
                 }
                 else
