@@ -58,8 +58,7 @@ namespace netstudio_demo
                         conn.Close();
                         f = new User(connstr, tk);
                     }
-                    f.Show();
-
+                    f.ShowDialog();
                     /*string sql1="select level_tk from taikhoan where TenTK='"+tk+"'and matkhau='"+mk+"'";
                     SqlCommand cmd1 = new SqlCommand(sql1, conn);*/
                     
@@ -74,5 +73,6 @@ namespace netstudio_demo
                 MessageBox.Show("Lỗi kết nối");
             }
         }
+
     }
 }

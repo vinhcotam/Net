@@ -92,6 +92,7 @@
             this.BTN_service.TabIndex = 5;
             this.BTN_service.Text = "Dịch vụ";
             this.BTN_service.UseVisualStyleBackColor = true;
+            this.BTN_service.Click += new System.EventHandler(this.BTN_service_Click);
             // 
             // button1
             // 
@@ -130,6 +131,7 @@
             this.Controls.Add(this.L_account);
             this.Name = "User";
             this.Text = "User";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.User_FormClosing);
             this.Load += new System.EventHandler(this.User_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
