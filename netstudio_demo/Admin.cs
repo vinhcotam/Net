@@ -11,9 +11,27 @@ namespace netstudio_demo
 {
     public partial class Admin : Form
     {
+        SqlConnection conn = null;
         public Admin(string connstr, string Acc)
         {
             InitializeComponent();
+            conn = new SqlConnection(@connstr);
+            conn.Open();
+            string sql = "select * from TaiKhoan";
+            SqlDataAdapter da = new SqlDataAdapter(sql, conn);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            DGVTaiKhoan.DataSource = dt;
+            sql = "select * from HoaDon";
+            da = new SqlDataAdapter(sql, conn);
+            dt = new DataTable();
+            da.Fill(dt);
+            DGVHoaDon.DataSource = dt;
+            sql = "select * from DichVu";
+            da = new SqlDataAdapter(sql, conn);
+            dt = new DataTable();
+            da.Fill(dt);
+            DGVDichVu.DataSource = dt;
         }
         public Admin()
         {

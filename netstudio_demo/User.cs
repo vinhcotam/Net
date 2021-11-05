@@ -65,7 +65,7 @@ namespace netstudio_demo
         private void BTN_service_Click(object sender, EventArgs e)
         {
             Form f = new Service(connstr);
-            f.ShowDialog();
+            f.Show();
         }
 
         private void User_FormClosing(object sender, FormClosingEventArgs e)
@@ -73,7 +73,6 @@ namespace netstudio_demo
             string tgchoistr = TimeSpan.FromSeconds(tgchoi).ToString(@"hh\:mm\:ss");
                 string sql = "update user_tk set Sotien = " + money.ToString("0.##") + " where TenTK = '" + Account + "'";
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                MessageBox.Show(sql);
                 cmd.ExecuteNonQuery();
         }
     }

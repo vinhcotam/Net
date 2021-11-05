@@ -21,3 +21,4 @@ C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\
 C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.Service.resources
 C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.User.resources
 C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.csproj.GenerateResource.Cache
+C:\Users\Duong\Documents\GitHub\CNWeb-trangbandoan_bootstrap\Net\netstudio_demo\obj\Debug\netstudio_demo.Admin.resources

@@ -62,7 +62,7 @@ namespace netstudio_demo
             // tbtkdn
             // 
             this.tbtkdn.Location = new System.Drawing.Point(88, 38);
-            this.tbtkdn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbtkdn.Margin = new System.Windows.Forms.Padding(2);
             this.tbtkdn.Name = "tbtkdn";
             this.tbtkdn.Size = new System.Drawing.Size(188, 20);
             this.tbtkdn.TabIndex = 2;
@@ -71,8 +71,9 @@ namespace netstudio_demo
             // tbmkdn
             // 
             this.tbmkdn.Location = new System.Drawing.Point(88, 83);
-            this.tbmkdn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbmkdn.Margin = new System.Windows.Forms.Padding(2);
             this.tbmkdn.Name = "tbmkdn";
+            this.tbmkdn.PasswordChar = '*';
             this.tbmkdn.Size = new System.Drawing.Size(188, 20);
             this.tbmkdn.TabIndex = 3;
             // 
@@ -85,9 +86,9 @@ namespace netstudio_demo
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(20, 11);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(287, 193);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
@@ -96,7 +97,7 @@ namespace netstudio_demo
             // btdn
             // 
             this.btdn.Location = new System.Drawing.Point(199, 118);
-            this.btdn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btdn.Margin = new System.Windows.Forms.Padding(2);
             this.btdn.Name = "btdn";
             this.btdn.Size = new System.Drawing.Size(77, 37);
             this.btdn.TabIndex = 5;
@@ -108,7 +109,7 @@ namespace netstudio_demo
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(16, 129);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(93, 17);
             this.checkBox1.TabIndex = 4;
@@ -121,7 +122,7 @@ namespace netstudio_demo
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(328, 206);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);

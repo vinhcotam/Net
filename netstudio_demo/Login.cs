@@ -44,17 +44,14 @@ namespace netstudio_demo
                     Form f = null;
                     if (level == 0)
                     {
-                        MessageBox.Show("dang nhap thanh cong");
                         conn.Close();
                         f = new Admin(connstr, tk);
                     } else if (level == 1)
                     {
-                        MessageBox.Show("dang nhap thanh cong");
                         conn.Close();
                         f = new Nhanvien(connstr, tk);
                     } else if (level == 2)
                     {
-                        MessageBox.Show("dang nhap thanh cong");
                         conn.Close();
                         f = new User(connstr, tk);
                     }
