@@ -27,9 +27,10 @@ namespace netstudio_demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connstr = "Data Source=THINKPADT430\\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True";
-            //string sqlstr = "Data Source=LAPTOP-Q5ASBT2Q\\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True";
+            //string connstr = "Data Source=THINKPADT430\\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True";
+            string connstr = "Data Source=LAPTOP-Q5ASBT2Q\\SQLEXPRESS;Initial Catalog=BTL_net;Integrated Security=True";
             SqlConnection conn = new SqlConnection(@connstr);
+        
             try {
                 conn.Open();
                 string tk = tbtkdn.Text;
